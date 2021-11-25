@@ -1,0 +1,43 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #E55A84, #E55A84, #E55A84, #E55A84, #fff) no-repeat;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 40%;
+}
+
+nav {
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    border-top: solid 2px #fff;
+}
+
+.painel div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel img {
+    width: 40%;
+}
+
+a {
+    margin: 30px;
+    text-decoration: none;
+    color: #fff;
+}
