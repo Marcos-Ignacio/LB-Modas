@@ -26,18 +26,112 @@ nav {
     border-top: solid 2px #fff;
 }
 
-.painel div {
+ul {
     display: flex;
     justify-content: center;
-    align-items: center;
+    font-weight: 700;
+}
+
+.painel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.painel div {
+    border: 1px solid #fff;
+    margin: 6px;
 }
 
 .painel img {
+    width: 200px;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cont div {
+    border: 1px solid #fff;
+    margin: 20px;
+}
+
+.cont img {
+    width: 200px;
+}
+
+button {
+    background-color: black;
+}
+
+.camisola {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.camisola div {
+    width: 300px;
+    border: 1px solid #fff;
+}
+
+.camisola img {
+    width: 300px;
+}
+
+.camisola div p {
+    width: ;
+}
+
+.baby {
+    display: flex;
+    justify-content: center;
+}
+
+.baby img {
     width: 40%;
+}
+
+.ame {
+    display: flex;
+    justify-content: center;
+}
+
+.ame img {
+    width: 20%;
 }
 
 a {
     margin: 30px;
     text-decoration: none;
     color: #fff;
+}
+
+#lojas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#lojas div {
+    padding: 20px;
+}
+
+.his {
+    border: solid 4px #fff;
+    align-items: center;
+    text-align: center;
+}
+
+.his h2 {
+    padding: 30px;
+}
+
+.his p {
+    padding: 10px;
 }
