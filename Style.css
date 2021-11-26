@@ -83,10 +83,6 @@ button {
     width: 300px;
 }
 
-.camisola div p {
-    width: ;
-}
-
 .baby {
     display: flex;
     justify-content: center;
@@ -134,4 +130,13 @@ a {
 
 .his p {
     padding: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+    nav {
+        font-size: 12px;
+    }
+    .his p {
+        font-size: 80%;
+    }
 }
