@@ -24,6 +24,7 @@ nav {
     display: flex;
     justify-content: center;
     border-top: solid 2px #fff;
+    padding: 10px;
 }
 
 ul {
@@ -102,7 +103,7 @@ button {
 }
 
 a {
-    margin: 30px;
+    margin: 15px;
     text-decoration: none;
     color: #fff;
 }
